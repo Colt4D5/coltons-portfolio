@@ -8,17 +8,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
   color: #fff;
+  position: relative;
 }
 
 html, .inner {
   overflow-x: hidden;
-}
-
-main {
-  position: relative;
-  width: 100vw;
-  // overflow-x: hidden;
-  // border: 1px solid greenyellow;
 }
 
 .container {

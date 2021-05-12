@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../img/profile.png';
+// import profile from '../img/profile.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';

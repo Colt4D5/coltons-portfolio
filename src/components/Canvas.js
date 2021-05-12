@@ -79,7 +79,10 @@ function Canvas() {
     }
 
     function init() {
-      for (let i = 0; i < 30; i++) {
+      let NUM_PARTICLES;
+      if (canvas.width < 600) NUM_PARTICLES = 10;
+      else NUM_PARTICLES = 30;
+      for (let i = 0; i < NUM_PARTICLES; i++) {
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
         particlesArray.push(new Particle(x, y));

@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 
-function Navbar() {
+function Navbar({ toggle }) {
   // const [links, setLinks] = useState(null);
   const location = useLocation();
   
@@ -36,6 +37,9 @@ function Navbar() {
   return (
     <header>
       <nav>
+      <div id="menu-btn-container" onClick={toggle}>
+        <FontAwesomeIcon icon={faBars} id="menu-btn" />
+      </div>
         <ul>
           <li><Link to="/" className="nav-link home">Home</Link></li>
           <li><Link to="/about" className="nav-link about">About</Link></li>

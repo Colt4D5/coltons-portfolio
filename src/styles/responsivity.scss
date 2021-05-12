@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px) {
+
+  .inner {
+    width: 100vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+
+    .form-container {
+      border: 1px solid red;
+      width: 100%;
+    }
+
+    .info {
+      border: 1px solid red;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100% !important;
+  }
+
+  .landing {   
+        h1 {
+          font-size: 1.2rem !important;
+        }
+  
+        h2 {
+          font-size: 3rem !important;
+          margin: 1rem 0 !important;
+        }
+  
+        p {
+          font-size: 0.9rem !important;
+          margin: 0.8rem 0 !important;
+        }
+      }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav {
+    #menu-btn-container {
+      display: initial !important;
+    }
+
+    ul {
+      display: none !important;
+    }
+  }
+
+
+  .landing {   
+    .inner {
+
+      .greeting {
+
+        h1 {
+          font-size: 1.5rem;
+        }
+  
+        h2 {
+          font-size: 4rem;
+          margin: 1rem 0;
+        }
+  
+        p {
+          font-size: 1rem;
+          margin: 1rem 0;
+
+          & a {
+            & .chevron {
+              margin-left: 3px;
+              font-size: x-small;
+            }
+  
+            &:hover {
+              color: lighten($primary, 20%);
+              text-shadow: 0 0 4px rgba(255,255,255,0.6);
+            }
+          }
+
+          &.learn-more {
+            margin-top: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+
+  .content {
+    flex-direction: column-reverse;
+
+    .form-container {
+      width: 90% !important;
+      margin: 0 auto;
+    }
+
+    .info {
+      width: 100% !important;
+      padding: 1rem !important;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .form-container {
+    width: 50% !important;
+  }
+
+  .info {
+    width: 50% !important;
+    padding: 1rem !important;
+  }
+}

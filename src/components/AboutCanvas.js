@@ -98,7 +98,7 @@ function AboutCanvas() {
         spark.draw();
       });
 
-      if (counter % 100 === 0) particlesArray.push(new Particle(-5, 60, 3, '#fff', Math.random() + 1, -Math.random(), true));
+      if (counter % 100 === 0) particlesArray.push(new Particle(-5, 40, 3, '#fff', Math.random() + 1, -Math.random(), true));
       
       requestAnimationFrame(animate);
     }

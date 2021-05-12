@@ -29,39 +29,41 @@ function Contact({ variants, transitions }) {
         <h1 className="heading">Like what you see?</h1>
         <h2>Let's Talk</h2>
         <div className="content">
-          <div className="contact-form">
-            <form id="contact-form" onSubmit={sendEmail}>
-              <h2>Contact Me</h2>
-              <input 
-                type="text" 
-                id="name" 
-                name="name" 
-                placeholder="Name" /> 
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                placeholder="Email Address" />
-              <input 
-                type="tel" 
-                id="phone" 
-                name="phone" 
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" 
-                placeholder="Phone Number xxx-xxx-xxxx" />
-              <textarea 
-                type="text" 
-                id="message" 
-                name="message" 
-                cols="40" 
-                rows="5" 
-                placeholder="Message me for job inquiries, more information, or whatever else" ></textarea>
-              <input 
-                type="submit" 
-                id="submit" 
-                name="submit" 
-                value="Submit"/>
-            </form>
-            <p className="attribution">*implemented with Email.js</p>
+          <div className="form-container">
+            <div className="contact-form">
+              <form id="contact-form" onSubmit={sendEmail}>
+                <h2>Contact Me</h2>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address" />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  placeholder="Phone Number xxx-xxx-xxxx" />
+                <textarea
+                  type="text"
+                  id="message"
+                  name="message"
+                  cols="40"
+                  rows="5"
+                  placeholder="Message me for job inquiries, more information, or whatever else" ></textarea>
+                <input
+                  type="submit"
+                  id="submit"
+                  name="submit"
+                  value="Submit"/>
+              </form>
+              <p className="attribution">*implemented with Email.js</p>
+            </div>
           </div>
           <div className="info">
             <h2>Are you looking to add a great asset to your team of Web Developers? Great!</h2>

@@ -7,10 +7,12 @@ import Modal from "./components/Modal";
 import { AnimatePresence } from "framer-motion";
 import { Switch, Route, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
+import Menu from "./components/Menu";
 
 function App() {
   const location = useLocation();
   const [active, setActive] = useState(false);
+  const [menu, setMenu] = useState(false);
   const [loading, setLoading] = useState(true);
   const [projectData, setProjectData] = useState(null);
   const [currentProj, setCurrentProj] = useState(null);
@@ -48,6 +50,13 @@ function App() {
     duration: 1,
   };
 
+  const toggleMenu = () => {
+    console.log(menu);
+    const toggle = !menu;
+    setMenu(toggle);
+    console.log(toggle);
+  }
+
   useEffect(() => {
     fetch("projects.json")
       .then((res) => {
@@ -63,8 +72,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <main>
+      <Navbar toggle={toggleMenu} />
         <AnimatePresence>
           <Switch location={location} key={location.pathname}>
             <Route exact path="/">
@@ -88,9 +96,9 @@ function App() {
               <Contact variants={pageVariants} transitions={pageTransition} />
             </Route>
           </Switch>
-        </AnimatePresence>
         {currentProj && <Modal onClick={handleClick} handler={handleClick} active={active} currentProj={currentProj} />}
-      </main>
+        {menu && <Menu toggle={toggleMenu} />}
+        </AnimatePresence>
     </div>
   );
 }

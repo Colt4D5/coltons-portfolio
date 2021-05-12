@@ -6,13 +6,13 @@
     min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
     // overflow: hidden;
     padding-top: 3rem;
 
     .greeting {
-      width: 60%;
-      max-width: 600px;
+      // width: 60%;
+      // max-width: 600px;
 
       h1 {
         font-size: 2rem;
@@ -60,7 +60,7 @@
 
 #bg-canvas {
   position: absolute;
-  top: -60px;
+  top: 0;
   left: 0;
   pointer-events: none;
   z-index: -1;

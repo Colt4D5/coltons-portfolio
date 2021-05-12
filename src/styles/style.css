@@ -9,15 +9,11 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #000;
   color: #fff;
+  position: relative;
 }
 
 html, .inner {
   overflow-x: hidden;
-}
-
-main {
-  position: relative;
-  width: 100vw;
 }
 
 .container {
@@ -53,6 +49,7 @@ header nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header nav ul {
   height: 100%;
@@ -110,17 +107,29 @@ header nav .resume_box:hover #download {
   color: #fff;
   text-shadow: 0 0 8px white;
 }
+header nav #menu-btn-container {
+  display: none;
+  padding: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 199;
+}
+header nav #menu-btn-container #menu-btn {
+  font-size: 2rem;
+  transition: all 0.4s ease;
+  position: relative;
+  z-index: 199;
+}
+header nav #menu-btn-container:hover #menu-btn {
+  color: #df861d;
+  filter: drop-shadow(0 0 8px #edb675);
+}
 
 .landing .inner {
   min-height: calc(100vh - 60px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-top: 3rem;
-}
-.landing .inner .greeting {
-  width: 60%;
-  max-width: 600px;
 }
 .landing .inner .greeting h1 {
   font-size: 2rem;
@@ -157,7 +166,7 @@ header nav .resume_box:hover #download {
 
 #bg-canvas {
   position: absolute;
-  top: -60px;
+  top: 0;
   left: 0;
   pointer-events: none;
   z-index: -1;
@@ -177,7 +186,7 @@ header nav .resume_box:hover #download {
 
 #about-canvas {
   position: absolute;
-  top: -60px;
+  top: 0;
   left: 0;
   pointer-events: none;
   z-index: -1;
@@ -319,12 +328,16 @@ header nav .resume_box:hover #download {
 }
 .contact .inner .content {
   display: flex;
+  align-items: center;
   margin-top: 2rem;
+}
+.contact .inner .content .form-container {
+  width: 40%;
 }
 .contact .inner .content .contact-form {
   background: rgba(255, 255, 255, 0.35);
-  width: 40%;
   padding: 2rem;
+  width: 100%;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -392,6 +405,158 @@ header nav .resume_box:hover #download {
   max-height: 85px;
   max-width: 85px;
   margin: 0.5rem;
+}
+
+.menu-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5000;
+  backdrop-filter: blur(4px);
+}
+.menu-overlay .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #111;
+  padding-top: 5rem;
+}
+.menu-overlay .menu .menu-item {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.menu-overlay .menu .menu-item .menu-link {
+  text-decoration: none;
+}
+.menu-overlay .menu .menu-item h1 {
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.menu-overlay .menu .menu-item:hover h1 {
+  color: #edb675;
+  text-shadow: 0 0 12px #edb675;
+}
+.menu-overlay .menu .menu-item:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.menu-overlay .menu .close-btn-container {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 12px;
+  cursor: pointer;
+}
+.menu-overlay .menu .close-btn-container .close-menu {
+  font-size: 1.4rem;
+  transition: all 0.4s ease;
+}
+.menu-overlay .menu .close-btn-container:hover .close-menu {
+  color: #df861d;
+  filter: drop-shadow(0 0 8px #edb675);
+}
+
+@media screen and (max-width: 480px) {
+  .inner {
+    width: 100vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+  .content .form-container {
+    border: 1px solid red;
+    width: 100%;
+  }
+  .content .info {
+    border: 1px solid red;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100% !important;
+  }
+
+  .landing h1 {
+    font-size: 1.2rem !important;
+  }
+  .landing h2 {
+    font-size: 3rem !important;
+    margin: 1rem 0 !important;
+  }
+  .landing p {
+    font-size: 0.9rem !important;
+    margin: 0.8rem 0 !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  nav #menu-btn-container {
+    display: initial !important;
+  }
+  nav ul {
+    display: none !important;
+  }
+
+  .landing .inner .greeting h1 {
+    font-size: 1.5rem;
+  }
+  .landing .inner .greeting h2 {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+  .landing .inner .greeting p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  .landing .inner .greeting p a .chevron {
+    margin-left: 3px;
+    font-size: x-small;
+  }
+  .landing .inner .greeting p a:hover {
+    color: #edb675;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+  }
+  .landing .inner .greeting p.learn-more {
+    margin-top: 1.5rem;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+  .content .form-container {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .content .info {
+    width: 100% !important;
+    padding: 1rem !important;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .form-container {
+    width: 50% !important;
+  }
+
+  .info {
+    width: 50% !important;
+    padding: 1rem !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
