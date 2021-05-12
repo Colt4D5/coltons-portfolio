@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "sys": { "id": "0" },
+      "fields": {
+        "title": "Netflix Clone",
+        "dataset": "netflix",
+        "body": { "technologies": "sass, react (including several libraries), firebase",
+                  "challenges": "This project is the largest in scope that I've accomplished to date, and presented me with many new trials, including deploying through firebase, fetching api through axios, as well as stylistically.",
+                  "learned": "Through this large and extensive project, I learned how amazing react.js truly is. The scalability, the maintainability, and the intuitive component-based system is an amazing framework that I'm excited to explore more of."},
+        "image": { "fields": { "file": { "url": "/assets/netflix-thumbnail.gif" },
+                              "url": "https://netflix-clone-ebe90.firebaseapp.com/",
+                              "github": "https://github.com/Colt4D5/netflix-clone.git" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/sass.png",
+        "https://img.icons8.com/color/60/000000/react-native.png",
+        "https://img.icons8.com/color/60/000000/firebase.png"
+      ]
+    },
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Forkify Recipe App",
+        "dataset": "forkify",
+        "body": { "technologies": "html, css (provided by course instructor), javascript (vanilla)",
+                  "challenges": "Forkify was the final project for Jonas Schmedtmann's javascript (2021) course and utilized many new features, methods, and techniques (including es6 features) and greatly broadened my perspective and view of what javascript truly is and is capable of. ",
+                  "learned": "My main focus throughout this course was maintaining the knowledge gained therein and it was due to this mission that I chose to try much of the work myself before I participated in the course material, only referring to it when I was unable to proceed on my own. This, I believe, led to a successful and highly educational course wherein I learned invaluable skills that I now incorporate into all my work."},
+        "image": { "fields": { "file": { "url": "/assets/forkify-thumbnail.gif" },
+                              "url": "https://recipe-app-forkify.netlify.app/",
+                              "github": "https://github.com/Colt4D5/forkify-application.git" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/html-5.png",
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/html-5--v2.png"
+      ]
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Bake Me Better Bakery",
+        "dataset": "bakery",
+        "body": { "technologies": "html, css (sass), JavaScript",
+                  "challenges": "This was my first solo, large(ish)-scale project and presented me with many challenges regarding manipulation of data, working with a database (albeit merely a local json file), and much more.",
+                  "learned": "The model/view/controller (mvc) architechture kept me organized and made maneuvering my way through the data much easier than I though it would have otherwise been. The course I took through udemy really came into play as I took a similar approach to the architecture."},
+        "image": { "fields": { "file": { "url": "/assets/bakery-thumbnail.gif" },
+                              "url": "https://coltons-bakery.netlify.app/",
+                              "github": "https://github.com/Colt4D5/bakery-shop.git" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/html-5.png",
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/sass.png",
+        "https://img.icons8.com/color/60/000000/html-5--v2.png"
+      ]
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Travel Web App",
+        "dataset": "travel",
+        "body": { "technologies": "css, react",
+                  "challenges": "At the time of building this weather application, I was fairly comfortable in javascript, however, I was only a few days in to learning the react library, so this posed a great challenge for as small of a scope that this application is.",
+                  "learned": "Because I was so unfamiliar with react as a framework at the time of this build, I learned a great deal about how react functions and its component-based system such as passing arguments into components, fetching within a component, etc."},
+        "image": { "fields": { "file": { "url": "/assets/travel-thumbnail.gif" },
+                              "url": "https://venture-out.netlify.app/",
+                              "github": "https://github.com/Colt4D5/venture-out" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/sass.png",
+        "https://img.icons8.com/color/60/000000/react-native.png"
+      ]
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Current Weather Application",
+        "dataset": "weather",
+        "body": { "technologies": "css, sass, react",
+                  "challenges": "At the time of building this weather application, I was fairly comfortable in javascript, however, I was only a few days in to learning the react library, so this posed a great challenge for as small of a scope that this application is.",
+                  "learned": "Because I was so unfamiliar with react as a framework at the time of this build, I learned a great deal about how react functions and its component-based system such as passing arguments into components, fetching within a component, etc."},
+        "image": { "fields": { "file": { "url": "/assets/weather-thumbnail.gif" },
+                              "url": "https://mobile-weather-application.netlify.app/",
+                              "github": "https://github.com/Colt4D5/react-weather-app.git" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/sass.png",
+        "https://img.icons8.com/color/60/000000/react-native.png"
+      ]
+    }
+  ]
+}

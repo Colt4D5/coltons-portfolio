@@ -1,0 +1,31 @@
+.about {
+
+  .inner {
+    .details {
+      max-width: 700px;
+      padding-bottom: 4rem;
+      // border: 1px solid white;
+
+      a {
+        color: $primary;
+
+        &:hover {
+          color: lighten($primary, 20%);
+          text-shadow: 0 0 4px rgba(255,255,255,0.6);
+        }
+      }
+    }
+  }
+}
+
+
+
+#about-canvas {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+  // background-color: rgba(255, 255, 255, 0.2);
+  // border: 1px solid red;
+}
