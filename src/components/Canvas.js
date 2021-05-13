@@ -21,6 +21,11 @@ function Canvas() {
       mouse.y = e.clientY;
     })
 
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    })
+
     class Particle {
       constructor(x, y) {
         this.x = x;

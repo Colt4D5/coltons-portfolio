@@ -17,6 +17,11 @@ function AboutCanvas() {
       heading = document.querySelector('#about-heading').getBoundingClientRect();
       canvas.height = pageHeight + 60;
     }, 1000);
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = pageHeight + 60;
+    })
       
     heading = document.querySelector('#about-heading').getBoundingClientRect();
   

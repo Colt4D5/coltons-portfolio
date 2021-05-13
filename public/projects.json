@@ -62,8 +62,8 @@
         "title": "Travel Web App",
         "dataset": "travel",
         "body": { "technologies": "css, react",
-                  "challenges": "At the time of building this weather application, I was fairly comfortable in javascript, however, I was only a few days in to learning the react library, so this posed a great challenge for as small of a scope that this application is.",
-                  "learned": "Because I was so unfamiliar with react as a framework at the time of this build, I learned a great deal about how react functions and its component-based system such as passing arguments into components, fetching within a component, etc."},
+                  "challenges": "Although development is more my main focus, I really focused on design for this project, and I am really happy with how it turned out.",
+                  "learned": "Going through this project, I became more comfortable with the React Router as well as more comfortable designing my projects. It was really fun, and I look forward to designing much more projects in the future."},
         "image": { "fields": { "file": { "url": "/assets/travel-thumbnail.gif" },
                               "url": "https://venture-out.netlify.app/",
                               "github": "https://github.com/Colt4D5/venture-out" } }
