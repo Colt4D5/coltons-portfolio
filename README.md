@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# My name is Colton Allen, and welcome to my Github!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is for my personal portfolio in which you can learn a little bit about me and the technologies that I work with, as well as learn a little bit about who I am. [Click here](https://coltonallen.dev) for a link to my live website or simply navigate to https://coltonallen.dev. 
 
-## Available Scripts
+## What technologies are used for this project?
 
-In the project directory, you can run:
+I'm glad you asked. This website was made using:
 
-### `npm start`
+  ### • React.js
+  ### • CSS
+  ####   - Sass (CSS preprocessor)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  # Contents:
+  
+  Within my portfolio, you will find links to the source code on github as well as links to the live sites for each project, some of which are hosted through Netlify, and another using firebase.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  ## Projects:
 
-### `npm test`
+  ### Netflix Clone
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  This was a great project, and my biggest to date in scope, in which I learned a lot about functional components and how they are related to one another.
 
-### `npm run build`
+  [Link](https://netflix-clone-ebe90.firebaseapp.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ### Forkify Recipe Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  This was the final project in Jonas Schmedtmann's extensive 70-hour JavaScript course and broadened my perspective of what JavaScript is truly capable of. I loved working on this project because I loved watching the evolution process from simple website to complex application with api calls and much more.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  [Link](https://recipe-app-forkify.netlify.app/)
 
-### `npm run eject`
+  ### Bake Me Better Bakery
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  This was my first solo project and I enjoyed every minute building this application. Because I owned and operated my own Custom Bakery for 12 years, I thought it only fitting to create a web app for a bakery.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  [Link](https://coltons-bakery.netlify.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ### Adventure Design App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  This was a fun little app in which I focused on design and functionality. Although it is barebones, as far as features and content, it was a good project for me to work on areas in which I need improvement such as design.
 
-## Learn More
+  [Link](https://venture-out.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ### Current Weather React App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  This was my first little project as I began my journey into React.js, and I was very happy with it. In addition to the current weather to various search locations using api calls, I also implemented geolocation so that it immediately finds your location and gives you the weather from wherever you are in the world right now.
 
-### Code Splitting
+  [Link](https://mobile-weather-application.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  ### At the bottom, you will also find a functional contact form that I implemented using Email.js as well as my resume, which you can view or download for your convenience.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for taking the time to check out my website. I hope to speak with you soon.
