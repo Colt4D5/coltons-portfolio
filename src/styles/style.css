@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
 * {
   padding: 0;
@@ -176,12 +177,63 @@ header nav #menu-btn-container:hover #menu-btn {
   max-width: 700px;
   padding-bottom: 4rem;
 }
+.about .inner .details p {
+  line-height: 2rem;
+}
+.about .inner .details h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
 .about .inner .details a {
   color: #df861d;
 }
 .about .inner .details a:hover {
   color: #edb675;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
+.about .inner .details .base_langs {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.about .inner .details .lang_card, .about .inner .details .frame_card {
+  text-align: center;
+  margin: 1rem 1.5rem;
+}
+.about .inner .details .lang_card_img {
+  max-width: 108px;
+  max-height: 84px;
+}
+.about .inner .details .frameworks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.about .inner .details .invert {
+  filter: invert(1);
+}
+.about .inner ul {
+  margin-left: 2rem;
+  list-style: none;
+}
+.about .inner ul li {
+  margin: 0.25rem 0;
+  color: white;
+  font-weight: 500;
+}
+.about .inner ul li::before {
+  content: "•";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgba(255, 255, 255, 0.75);
+  /* Change the color */
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
 }
 
 #about-canvas {

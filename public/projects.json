@@ -5,7 +5,7 @@
       "fields": {
         "title": "Netflix Clone",
         "dataset": "netflix",
-        "body": { "technologies": "sass, react (including several libraries), firebase",
+        "body": { "technologies": "Sass, React.js (including several libraries), firebase",
                   "challenges": "This project is the largest in scope that I've accomplished to date, and presented me with many new trials, including deploying through firebase, fetching api through axios, as well as stylistically.",
                   "learned": "Through this large and extensive project, I learned how amazing react.js truly is. The scalability, the maintainability, and the intuitive component-based system is an amazing framework that I'm excited to explore more of."},
         "image": { "fields": { "file": { "url": "/assets/netflix-thumbnail.gif" },
@@ -21,6 +21,25 @@
     },
     {
       "sys": { "id": "1" },
+      "fields": {
+        "title": "The Tipsy Mixer | Cocktails & Drinks",
+        "dataset": "cocktails",
+        "body": { "technologies": "CSS3, Sass, vanilla JavaScript",
+                  "challenges": "Tasked with creating a webpage using TheCocktailDB, it was a challenge for me to implement all the features such as modals, image carousel, search function, as well as mobile responsivity & mobile menu.",
+                  "learned": "With each application I create, I gain a better understanding of MVC architecture and the inner workings of data manipulation. I was really happy with the outcome, and I had a lot of fun creating The Tipsy Mixer."},
+        "image": { "fields": { "file": { "url": "/assets/tipsy-thumbnail.gif" },
+                              "url": "https://tipsy-mixer-port.netlify.app/",
+                              "github": "https://github.com/Colt4D5/mocktails.git" } }
+      },
+      "techs": [
+        "https://img.icons8.com/color/60/000000/html-5.png",
+        "https://img.icons8.com/color/60/000000/css3.png",
+        "https://img.icons8.com/color/60/000000/sass.png",
+        "https://img.icons8.com/color/60/000000/html-5--v2.png"
+      ]
+    },
+    {
+      "sys": { "id": "2" },
       "fields": {
         "title": "Forkify Recipe App",
         "dataset": "forkify",
@@ -38,7 +57,7 @@
       ]
     },
     {
-      "sys": { "id": "2" },
+      "sys": { "id": "3" },
       "fields": {
         "title": "Bake Me Better Bakery",
         "dataset": "bakery",
@@ -57,7 +76,7 @@
       ]
     },
     {
-      "sys": { "id": "3" },
+      "sys": { "id": "4" },
       "fields": {
         "title": "Travel Web App",
         "dataset": "travel",
@@ -75,7 +94,7 @@
       ]
     },
     {
-      "sys": { "id": "4" },
+      "sys": { "id": "5" },
       "fields": {
         "title": "Current Weather Application",
         "dataset": "weather",

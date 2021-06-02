@@ -6,6 +6,15 @@
       padding-bottom: 4rem;
       // border: 1px solid white;
 
+      p {
+        line-height: 2rem;
+      }
+
+      h2 {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+      }
+
       a {
         color: $primary;
 
@@ -13,6 +22,54 @@
           color: lighten($primary, 20%);
           text-shadow: 0 0 4px rgba(255,255,255,0.6);
         }
+      }
+
+      .base_langs {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      .lang_card, .frame_card {
+        text-align: center;
+        margin: 1rem 1.5rem;
+      }
+
+      .lang_card_img {
+        max-width: 108px;
+        max-height: 84px;
+      }
+
+      .frameworks {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+      }
+
+      .invert {
+        filter: invert(1);
+      }
+
+    }
+    ul {
+      margin-left: 2rem;
+      list-style: none;
+
+      li {
+        margin: 0.25rem 0;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+      }
+
+      li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgba(255,255,255,0.75); /* Change the color */
+        font-size: 1.5rem;
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        // margin-right: 0.4em; /* Also needed for space (tweak if needed) */
       }
     }
   }
