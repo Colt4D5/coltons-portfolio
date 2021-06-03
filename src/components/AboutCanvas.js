@@ -57,7 +57,7 @@ function AboutCanvas() {
 
 
         if (this.x >= heading.left && 
-            this.x <= heading.left + heading.width - 145 && 
+            this.x <= heading.left + heading.width - 400 && 
             this.y + this.directionY >= heading.top &&
             this.y + this.directionY <= heading.top + 10 &&
             this.bounce) {
@@ -65,8 +65,8 @@ function AboutCanvas() {
               for (let i = 0; i < 5; i++) sparksArray.push(new Particle(this.x, this.y, 0.7, '#df861d', Math.random() * 3 - 1.5, -Math.random() * 3 + 1, false));
         };
 
-        if (this.x >= heading.right - 140 && 
-            this.x <= heading.right - 80  && 
+        if (this.x >= heading.right - 400 && 
+            this.x <= heading.right - 225  && 
             this.y + this.directionY >= heading.top + (heading.height / 2) &&
             this.y + this.directionY <= heading.top + (heading.height / 2) + 10 &&
             this.bounce) {
